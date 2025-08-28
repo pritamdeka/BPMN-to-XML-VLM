@@ -1,0 +1,23 @@
+# Cloud SDKs
+openai>=1.0.0
+mistralai>=0.4.0
+google-genai>=0.3.0
+
+# Vision & utils
+pillow
+tqdm
+
+# Local HF pipelines (Gemma / Qwen)
+transformers>=4.42.0
+torch
+accelerate
+safetensors
+
+# Qwen helper (optional; or vendor from source)
+# qwen-vl-utils
+lxml
+pandas
+networkx
+numpy
+sentence-transformers
+scikit-learn
