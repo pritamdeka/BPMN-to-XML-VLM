@@ -156,7 +156,7 @@ def evaluate_graph_similarity(gold_folder, pred_folder, output_csv):
                     "Semantic Sim (pred2gold)": avg_sim_pred,
                 })
             except Exception as e:
-                print(f"❌ Error in {stem}: {e}")
+                print(f"Error in {stem}: {e}")
 
     df = pd.DataFrame(results)
     if not df.empty:
@@ -176,10 +176,10 @@ def evaluate_graph_similarity(gold_folder, pred_folder, output_csv):
             "Semantic Sim (pred2gold)": df["Semantic Sim (pred2gold)"].mean()
         }
         df.to_csv(output_csv, index=False)
-        print(f"✅ Fair evaluation results saved to: {output_csv}")
+        print(f"Fair evaluation results saved to: {output_csv}")
         print(df.head().to_string(index=False))
     else:
-        print("⚠️ No results to save: DataFrame is empty. Check input folders or parsing issues.")
+        print("No results to save: DataFrame is empty. Check input folders or parsing issues.")
 
 def main():
     ap = argparse.ArgumentParser(description="Graph-based BPMN evaluation (structure + semantics).")
