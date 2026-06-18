@@ -3,6 +3,8 @@
 This repository contains **only Python code** (no notebooks) for converting BPMN **diagram images** → **BPMN XML**
 using multiple backends: **OpenAI (GPT‑4o)**, **Mistral**, **Gemini**, **Gemma 3**, and **Qwen 2.5‑VL**.
 
+The repository is based on the work [From Sketch to Structure: Agentic Prompting for Business Process Diagram Understanding With Vision–Language Models] (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11456921).
+
 ## Structure
 ```
 src/
