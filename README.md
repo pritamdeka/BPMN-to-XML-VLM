@@ -97,3 +97,16 @@ python -m src.eval.graph_eval \
   --pred-folder /path/to/pred_folder \
   --out-csv outputs/bpmn_eval_fair.csv
 ```
+## Citation
+If you use this work, please don't forget to cite the paper as well. 
+```
+@article{deka2026sketch,
+  title={From Sketch to Structure: Agentic Prompting for Business Process Diagram Understanding With Vision--Language Models},
+  author={Deka, Pritam and Devereux, Barry},
+  journal={IEEE Access},
+  volume={14},
+  pages={48575--48598},
+  year={2026},
+  publisher={IEEE}
+}
+```
